@@ -88,6 +88,11 @@ A new obligation is generated on the first day of the period, whether the previo
 18A3 31.10.2018<br/>
 18A4 31.01.2019
 
+## Encoding period keys
+
+The format of the period key is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example 18AD, 18A1, %23001.
+
+
 Note we have not yet configured annual period keys as annual accounting is not in scope for MVP.
 
 The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (e.g. #001), so the period key must be percent-encoded, for example 18AD, 18A1, %23001.
